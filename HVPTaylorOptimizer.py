@@ -74,8 +74,6 @@ class HVPTaylorOptimizer(Optimizer):
             with torch.enable_grad():
                 loss = closure()
         
-        
-        # 😀
 
         EN_G = 0      # 정답과 보정값의 유클리디안 거리
         CS_G = 0      # 정답과 보정값의 코사인 거리
